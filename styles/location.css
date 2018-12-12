@@ -131,6 +131,10 @@ main .content #map {
     grid-row: 2 / 4;
     grid-column: 2 / 4;
 }
+footer h6 a:link {
+    text-decoration: underline;
+    color: #ffe7b3;
+}
 
 /* footer */
 
