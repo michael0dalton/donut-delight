@@ -140,7 +140,7 @@ main .content #contactUs form {
     margin: 14px 40px 14px 40px;
 }
 main .content #contactUs #text {
-    margin: 14px 100px 14px 40px;
+    margin: 14px 40px 14px 40px;
 }
 main .content #twitter-big {
     grid-row: 2 / 3;
@@ -205,4 +205,12 @@ footer h6 {
 footer h6 a:link {
     text-decoration: underline;
     color: #ffe7b3;
+}
+
+/* different  sizes */
+
+@media (max-width: 1600px) {
+    #follow1 {
+        display: none;
+    }
 }

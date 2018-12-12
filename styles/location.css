@@ -131,10 +131,6 @@ main .content #map {
     grid-row: 2 / 4;
     grid-column: 2 / 4;
 }
-footer h6 a:link {
-    text-decoration: underline;
-    color: #ffe7b3;
-}
 
 /* footer */
 
@@ -149,4 +145,16 @@ footer h6 {
     color: #ffe7b3;
     text-align: right;
     margin: 1.4em 1em 0em 0em;
+}
+footer h6 a:link {
+    text-decoration: underline;
+    color: #ffe7b3;
+}
+
+/* different  sizes */
+
+@media (max-width: 1600px) {
+    #joke1 {
+        display: none;
+    }
 }

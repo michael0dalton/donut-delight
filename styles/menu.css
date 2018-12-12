@@ -194,3 +194,11 @@ footer h6 a:link {
     text-decoration: underline;
     color: #ffe7b3;
 }
+
+/* different  sizes */
+
+@media (max-width: 1600px) {
+    #funfact1 {
+        display: none;
+    }
+}
