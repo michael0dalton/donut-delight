@@ -27,6 +27,7 @@ a:hover { color: #b55200; }
 /* nav */
 
 nav {
+    z-index: 3;
     grid-area: nav;
     grid-template: auto / auto auto auto;
     background: #ffc73b;

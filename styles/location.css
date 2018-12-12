@@ -25,6 +25,7 @@ a:hover { color: #b55200; }
 /* nav */
 
 nav {
+    z-index: 3;
     grid-area: nav;
     grid-template: auto / auto auto auto;
     background: #ffc73b;
@@ -67,25 +68,33 @@ nav #nav-social li {
     margin: 0 .2em 0 0;
 }
 
+/* callout */
+
+#joke1 {
+    clear: both;
+    justify-self: left;
+    position: absolute;
+    margin-top: 31vw;
+    margin-left: 14.5%;
+}
+
 /* main */
 
 main {
     grid-area: main;
     position: static;
-    padding: 5vh 0 0 0;
-    margin: 0 6.25%;
+    padding: 5vh 100px 12vh 100px;
     background: #ffe7b3;
-    align-self: top;
+    align-self: center;
     justify-self: center;
+    overflow: hidden;
 }
 main .content {
-    padding: auto 6.25%;
+    justify-self: center;
     background-color: #ffe7b3;
-    padding: auto 0;
     display: grid;
-    padding: 0 6.25%;
-    grid-template-rows: 100px 300px 300px;
-    grid-template-columns: 400px 300px 300px;
+    grid-template-rows: auto 30% 30%;
+    grid-template-columns: 23.8vw 30vw;
 }
 main .content #title {
     grid-row: 1 / 2;
@@ -93,23 +102,30 @@ main .content #title {
     text-align: center;
     font-size: 160%;
     color: #b55200;
+    width: auto;
 }
-main .content #storefront {
+main .content #storefront img {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
-    background-color: green;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: right;
 }
 main .content #information {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
-    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
     background-color: white;
-    margin: 0;
-    padding: 50px;
     text-align: center;
+    align-self: center;
+    justify-self: right;
 }
 main .content #information p {
     padding-bottom: 24px;
+    text-align: center;
 }
 main .content #map {
     grid-row: 2 / 4;

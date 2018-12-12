@@ -9,7 +9,16 @@
     <title>Donut Delights</title>
     <link rel="shortcut icon" href="../images/favicon.ico">
 	<link rel="stylesheet" href="../styles/normalize.css">
-	<link rel="stylesheet" href="../styles/location.css">
+	<link rel="stylesheet" href="../styles/contact.css">
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130887131-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130887131-1');
+    </script>
 </head>
 
 <body>
@@ -43,7 +52,37 @@
     </nav>
     
     <main>
-        
+        <div class="content">
+            <div id="title">
+                <h1>Wanna talk?</h1>
+            </div>
+            <div id="contactUs">
+                <form method="POST" action="success.html" onsubmit="return checkForm(this);">
+                    <h2>Sign up for deals</h2>
+                    <p>Subscribe to our newsletter below for the latest on our seasonal offerings and special events (*-required)</p>
+                    <br>
+                    <div id="names_label">Name*</div>
+                    <textarea id="first_name" type="text" onkeyup="" placeholder="first" required></textarea>
+                    <textarea id="last_name" type="text" onkeyup="" placeholder="last" required></textarea>
+                    <br>
+                    <br>
+                    <div id="email_label">E-mail*</div>
+                    <textarea id="email" type="email" onkeyup="" placeholder="netsurfer@email.com" required></textarea>
+                    <br>
+                    <br>
+                    <div id="birthday_label">Birthday</div>
+                    <textarea id="birthday" type="date" onkeyup="Allow()" placeholder="mm/dd/yyyy"></textarea>
+                    <br>
+                    <br>
+                    <input id="submit_button" type="submit" value="SUBMIT" onclick="insert()" />
+                </form>
+                    <h2>CALL — (217) 555-1234</h2>
+                    <p>Quick and simple, just ring us</p>
+                    <h2>E-MAIL — contact@donutdelights.com</h2>
+                    <p>Long and complex, shoot us an e-mail</p>
+            </div>
+            
+        </div>
     </main>
     
     <footer>

@@ -1,0 +1,15 @@
+/* WEB */
+	Web Designer & Developer: Michael Dalton	
+	Contact: mdalton10@stu.parkland.edu
+	From: Urbana, Illinois, USA
+
+/* THANKS */
+	Donut Delights Owner: Marvin Furballski
+	Web Design & Development Instructor: Becky Ding
+		
+
+/* SITE */
+	Last update: 12/12/2018
+	Language: English
+	Doctype: HTML5
+	IDE: Brackets, Illustrator & Photoshop
