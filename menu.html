@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Donut Delights Cafe and Bakery">
+    <meta name="keywords" content="Donuts, Coffee, Cafe, Bakery, Sweets, Treats, Delights">
+    <title>Donut Delights</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="ism/css/my-slider.css"/>
+    <script src="ism/js/ism-2.2.min.js"></script>
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130887131-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130887131-1');
+    </script>
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html" id="logo">
+            <img src="../images/donut-delights-large.png" height="110" alt="Donut Delights Established 1971">
+        </a>
+            <ul id="nav-links">
+                <li id="location"><a href="location.html">LOCATION</a></li>
+                <li id="menu"><a href="menu.html"><strong>MENU</strong></a></li>
+                <li id="contact"><a href="contact.html">CONTACT</a></li>
+                <li id="about"><a href="about.html">ABOUT</a></li>
+            </ul>
+            <ul id="nav-social">
+                <li>
+                    <a id="facebook" href="https://www.facebook.com/">
+                        <img src='../images/facebook.png' height="40" alt="facebook button" onmouseenter="this.src='../images/facebook-hover.png';" onmouseleave="this.src='../images/facebook.png';">
+                    </a>
+                </li>
+                <li>
+                    <a id="twitter" href="https://www.twitter.com/">
+                        <img src='../images/twitter.png' height="40" alt="twitter button" onmouseenter="this.src='../images/twitter-hover.png';" onmouseleave="this.src='../images/twitter.png';">
+                    </a>
+                </li>
+                <li>
+                    <a id="instagram" href="https://www.instagram.com/">
+                        <img src='../images/instagram.png' height="40" alt="instagram button" onmouseenter="this.src='../images/instagram-hover.png';" onmouseleave="this.src='../images/instagram.png';">
+                    </a>
+                </li>
+            </ul>
+    </nav>
+    
+    <div id=funfact1>
+        <img src="../images/funfact1.png" height=auto alt="Fun fact: the first donut machine wasn't created until 1920" width=100%>
+    </div>
+    
+    <main>
+        <div class="content">
+            <div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-buttons="false" id="my-slider">
+                <ol>
+                    <li>
+                        <img src="../images/slides/sprinkle-donut.jpg" alt="sprinkle donut">
+                    </li>
+                    <li>
+                        <img src="../images/slides/5-jelly-donuts.jpg" alt="filled donuts">
+                    </li>
+                    <li>
+                        <img src="../images/slides/bulls-horn.jpg" alt="bull horns">
+                    </li>
+                    <li>
+                        <img src="../images/slides/donuts-in-case01.jpg" alt="assorted donuts in display case">
+                    </li>
+                    <li>
+                        <img src="../images/slides/donuts-in-case02.jpg" alt="assorted donuts in shop window">
+                    </li>
+                    <li>
+                        <img src="../images/slides/donuts-in-case03.JPG" alt="crullers in display case">
+                    </li>
+                    <li>
+                        <img src="../images/slides/donuts-in-case04.jpg" alt="assorted donuts in display case">
+                    </li>
+                    <li>
+                        <img src="../images/slides/donuts-with-frosting.jpg" alt="frosted donuts">
+                    </li>
+                </ol>
+            </div>
+            <div id="information">
+                <br>
+                <h2>BAKER’S DOZEN — $8.65</h2>
+                <p>Mix &amp; Match 13 Regular Donuts</p>
+                <h2>REGULAR DONUTS — $1.05</h2>
+                <p>Chocolate Frosted • Vanilla Frosted • Boston Cream<br>Jelly Filled • Cream Filled • Glazed • Chocolate Glazed<br>Marble Twist • Sugar Raised • Plain Donut • Plain Cruller<br>Honey Wheat • Jelly Puff • Cream Puff • Coffee Roll</p>
+                <h2>FANCY DONUTS — $2.00</h2>
+                <p>Bow Tie • Eclair • Apple Turnover<br>Fancy Coffee Roll • French Cruller</p>
+                <h2>TOP SELLERS</h2>
+                <p>Pistachio Pinwheels • Boston Cream Delights<br>Chocolate Confetti • Marshmallowy Mayhems<br>French Twists • Bull’s Horns</p>
+                <br>
+            </div>
+            <div id="title">
+                <h1>Comments</h1>
+            </div>
+            <div id="box">
+                <div id="commentsection">
+                    <br>
+                    <h2>Share your thoughts</h2>
+                    <p>How was your latest visit?<br>(*-required)</p>
+                    <br>
+                    <div id="names_label">Name*</div>
+                    <textarea id="first_name" type="text" placeholder="first" autofocus required></textarea>
+                    <textarea id="last_name" type="text" placeholder="last" autofocus required></textarea>
+                    <div id="subject_label">Subject*</div>
+                    <textarea id="subject" type="text" placeholder="what's this about?" autofocus required></textarea>
+                    <div id="comments_label">Comment*</div>
+                    <textarea id="comment" type="text" onkeyup="Allow()" placeholder="tell everyone what you're thinking..." autofocus required></textarea>
+                    <br>
+                    <input style="font-size: 80%; padding: 3px;" type="submit" value="POST COMMENT" onclick="insert()" />
+                    <br>
+                    <div id="display"><br><h2 style="display: block; width: 440px; background-color: #ffc73b; margin: 0 auto; padding: 10px;">John Doe — Mmmmmmmmmmmmm</h2><p style="display: block; width: 440px; background-color: #ffe7b3; margin: 0 auto; padding: 10px;">Yo, I love donuts so much! Furballski makes the best donuts ever!</p><br>
+                    <h2 style="display: block; width: 440px; background-color: #ffc73b; margin: 0 auto; padding: 10px;">Jane Doe — John has a problem</h2><p style="display: block; width: 440px; background-color: #ffe7b3; margin: 0 auto; padding: 10px;">I’ll admit it, these donuts are great. But, John has a major donut problem! Donut let him eat any more donuts!</p></div>
+                    <br>
+                    <script type="text/javascript">
+
+                        var titles = [];
+                        var firstNameInput = document.getElementById("first_name");
+                        var lastNameInput = document.getElementById("last_name");
+                        var titleInput = document.getElementById("subject");
+                        var commentInput = document.getElementById("comment");
+                        var messageBox = document.getElementById("display");
+
+                        function Allow() {
+        	               if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="") {
+        		              user.title.value="";
+        		              alert("Please Enter only alphabets");
+        	               }
+        	                   window.location.reload()
+                            }
+
+                            function insert () {
+                                titles.push(firstNameInput.value);
+                                titles.push(lastNameInput.value);
+                                titles.push(titleInput.value);
+                                titles.push(commentInput.value);
+        	                   clearAndShow();
+                            }
+
+                            function clearAndShow () {
+                                firstNameInput.value = "";
+                                lastNameInput.value = "";
+                                titleInput.value = "";
+        	                   commentInput.value = "";
+                                messageBox.innerHTML += "</br><h2 style='display: block; width: 440px; background-color: #ffc73b; margin: 0 auto; padding: 10px;'>" + titles[0] + " " + titles[1] + " — " + titles[2] + "</h2><p style='display: block; width: 440px; background-color: #ffe7b3; margin: 0 auto; padding: 10px;'>" + titles[3] + "</p>";
+                            }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <h6>&copy; Donut Delights 2018 | Design: Michael Dalton</h6>
+    </footer>
+</body>
+
+</html>
