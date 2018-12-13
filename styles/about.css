@@ -70,6 +70,7 @@ nav #nav-social li {
 
 /* callout */
 
+/*
 #funfact2 {
     clear: both;
     justify-self: left;
@@ -78,6 +79,7 @@ nav #nav-social li {
     margin-left: 87px;
     z-index: 2;
 }
+*/
 
 /* content */
 
@@ -97,6 +99,14 @@ main .content {
     display: grid;
     grid-template-rows: 110px 1fr;
     grid-template-columns: 600px 600px;
+}
+#funfact2 {
+    clear: both;
+    justify-self: left;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: -94.5px;
+    z-index: 1;
 }
 main .content #title {
     grid-row: 1 / 2;
