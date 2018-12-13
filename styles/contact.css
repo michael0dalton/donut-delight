@@ -165,7 +165,7 @@ main .content #facebook-big {
 
 /* change these for form display */
 
-textarea {
+textarea, input{
 	resize: none;
     border: none;
     background: lightgray;
