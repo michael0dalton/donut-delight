@@ -54,7 +54,7 @@
     </nav>
     
     <div id=funfact1>
-        <img src="../images/funfact1.png" height=auto alt="Fun fact: the first donut machine wasn't created until 1920">
+        <img src="../images/funfact1.png" alt="Fun fact: the first donut machine wasn't created until 1920">
     </div>
     
     <main>
@@ -109,19 +109,19 @@
                     <p>How was your latest visit?<br>(*-required)</p>
                     <br>
                     <div id="names_label">Name*</div>
-                    <textarea id="first_name" type="text" placeholder="first" required></textarea>
-                    <textarea id="last_name" type="text" placeholder="last" required></textarea>
+                    <textarea id="first_name" placeholder="first" required></textarea>
+                    <textarea id="last_name" placeholder="last" required></textarea>
                     <div id="subject_label">Subject*</div>
-                    <textarea id="subject" type="text" placeholder="what's this about?" required></textarea>
+                    <textarea id="subject" placeholder="what's this about?" required></textarea>
                     <div id="comments_label">Comment*</div>
-                    <textarea id="comment" type="text" onkeyup="Allow()" placeholder="tell everyone what you're thinking..."required></textarea>
+                    <textarea id="comment" onkeyup="Allow()" placeholder="tell everyone what you're thinking..." required></textarea>
                     <br>
                     <input style="font-size: 80%; padding: 3px;" type="submit" value="POST COMMENT" onclick="insert()" />
                     <br>
                     <div id="display"><br><h2 style="display: block; width: 440px; background-color: #ffc73b; margin: 0 auto; padding: 10px;">John Doe — Mmmmmmmmmmmmm</h2><p style="display: block; width: 440px; background-color: #ffe7b3; margin: 0 auto; padding: 10px;">Yo, I love donuts so much! Furballski makes the best donuts ever!</p><br>
                     <h2 style="display: block; width: 440px; background-color: #ffc73b; margin: 0 auto; padding: 10px;">Jane Doe — John has a problem</h2><p style="display: block; width: 440px; background-color: #ffe7b3; margin: 0 auto; padding: 10px;">I’ll admit it, these donuts are great. But, John has a major donut problem! Donut let him eat any more donuts!</p></div>
                     <br>
-                    <script type="text/javascript">
+                    <script>
 
                         var titles = [];
                         var firstNameInput = document.getElementById("first_name");
