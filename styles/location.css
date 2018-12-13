@@ -151,7 +151,7 @@ footer h6 a:link {
 
 /* different  sizes */
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
     #joke1 {
         display: none;
     }

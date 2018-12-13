@@ -68,19 +68,6 @@ nav #nav-social li {
     margin: 0 .2em 0 0;
 }
 
-/* callout */
-
-/*
-#funfact2 {
-    clear: both;
-    justify-self: left;
-    position: absolute;
-    margin-top: 1200px;
-    margin-left: 87px;
-    z-index: 2;
-}
-*/
-
 /* content */
 
 main {
@@ -100,7 +87,7 @@ main .content {
     grid-template-rows: 110px 1fr;
     grid-template-columns: 600px 600px;
 }
-#funfact2 {
+main .content #funfact2 {
     clear: both;
     justify-self: left;
     position: absolute;
@@ -171,7 +158,7 @@ footer h6 a:link {
 
 /* different  sizes */
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
     #funfact2 {
         display: none;
     }

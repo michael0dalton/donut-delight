@@ -95,32 +95,32 @@ nav #nav-social li {
     filter: drop-shadow(2px 2px 5px black);
 }
 
-/* callout */
-
-#follow1 {
-    clear: both;
-    justify-self: right;
-    position: absolute;
-    margin-top: 750px;
-    margin-right: 14.7%;
-    z-index: 2;
-}
-
 /* main */
 
 main {
     grid-area: main;
     position: static;
-    padding: 2vh 70px 0 70px;
+    width: 1400px;
+    padding: 5vh 0 0 0;
+    height: 100%;
     background: #ffe7b3;
+    align-self: center;
     justify-self: center;
+    overflow-y: visible;
 }
 main .content {
-    justify-self: center;
-    background-color: #ffe7b3;
+    justify-content: center;
     display: grid;
-    grid-template-rows: 10% 18vh 18vh 18vh;
-    grid-template-columns: 35vw 22vw;
+    grid-template-rows: 110px 33.33% 33.33% 33.34%;
+    grid-template-columns: 800px 400px;
+}
+main .content #follow1 {
+    clear: both;
+    position: absolute;
+    justify-content: right;
+    margin-top: 640px;
+    right: 94.5px;
+    z-index: 1;
 }
 main .content #title {
     grid-row: 1 / 2;
@@ -134,6 +134,7 @@ main .content #contactUs {
     grid-column: 1 /2;
     justify-self: left;
     background-color: white;
+    width: 100%;
     overflow-y: auto;
 }
 main .content #contactUs form {
@@ -160,6 +161,7 @@ main .content #facebook-big {
     align-self: center;
     justify-self: center;
 }
+
 
 /* change these for form display */
 
@@ -209,7 +211,7 @@ footer h6 a:link {
 
 /* different  sizes */
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
     #follow1 {
         display: none;
     }
